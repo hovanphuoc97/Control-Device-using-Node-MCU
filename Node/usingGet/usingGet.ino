@@ -17,6 +17,7 @@ void setup() {
   Serial.println(WiFi.localIP());
 
   Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
+
   pinMode(16, OUTPUT);
 }
 void loop() {
